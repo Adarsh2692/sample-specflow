@@ -1,0 +1,20 @@
+userName: user
+accessKey: key
+
+projectName: BrowserStack Samples
+buildName: browserstack build
+buildIdentifier: '#${BUILD_NUMBER}'
+
+source: specflow:sample-sdk:v1.0
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+
+# browserstackLocal: true 
+
+debug: false
+networkLogs: false
+consoleLogs: errors
